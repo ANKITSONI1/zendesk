@@ -1,1 +1,1960 @@
 iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+iuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agreiuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agreiuhiuni
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agre
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
+
+
+
+
+
+
+
+
+
+You can follow this curl tutorial using GitHub's API to see how you would translate
+
+GET /repos/:owner/:repo/stats/contributors
+As you notice in the comments, the ":" shouldn't be included.
+
+curl --include https://api.github.com/users/caspyin
+Pass user credential to basic auth to access protected resources like a users starred gists, or private info associated with their profile
+
+curl --user "caspyin:PASSWD" https://api.github.com/gists/starred
+curl --user "caspyin:PASSWD" https://api.github.com/users/caspyin
+Passing just the username without the colon (:) will cause you to be prompted for your account password.
+This avoids having your password in your command line history
+
+curl --user "caspyin" https://api.github.com/users/caspyin
+In your case, replacing <owner> and <reponame> by the right owner and repo names:
+
+curl https://api.github.com/repos/<owner>/<reponame>/stats/contributors
+shareimprove this answer
+edited May 23 '17 at 12:17
+
+Community♦
+111 silver badge
+answered Sep 23 '14 at 5:53
+
+VonC
+894k328328 gold badges29052905 silver badges34903490 bronze badges
+add a comment
+Your Answer
+Sign up or log in
+ Sign up using Google
+ Sign up using Facebook
+ Sign up using Email and Password
+Post as a guest
+Name
+Email
+Required, but never shown
+
+Post Your Answer
+By clicking “Post Your Answer”, you agrev
